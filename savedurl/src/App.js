@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
-import '.src/App.css';
+import './src/App.css';
 
 function App() {
   const [urlInput, setUrlInput] = useState('');
