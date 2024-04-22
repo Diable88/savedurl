@@ -1,4 +1,4 @@
-  /* app.css */
+ /* app.css */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,48 +6,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34; /* Assuming you want the same bg color as .App-header */
 }
 
+/* Custom styles for link cards */
 .link-card {
-  background-color: #4B1D3F; /* Custom purple background for link cards */
-  color: #FFF; /* White text color */
+  background-color: #4B1D3F;
+  color: #FFF;
 }
 
 /* Additional custom styles */
 .container {
-  max-width: 640px; /* Adjust the max-width as needed */
-  margin: auto; /* Center the container */
-  padding: 2rem; /* Provide some padding */
+  max-width: 640px;
+  margin: auto;
+  padding: 2rem;
 }
 
 /* Enhance the focus state for better accessibility */
 input:focus, button:focus {
-  outline: 2px solid #9b5de5; /* Purple outline */
+  outline: 2px solid #9b5de5;
   outline-offset: 2px;
 }
 
 /* Style adjustments for the form */
 form.my-4 {
-  margin-bottom: 2rem; /* Increase bottom margin */
+  margin-bottom: 2rem;
 }
 
 /* Style adjustments for buttons */
 button {
-  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 button:hover {
-  transform: translateY(-2px); /* Slight lift effect on hover */
+  transform: translateY(-2px);
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments for the grid */
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
-}
 
+/* Styles from the Create React App template */
 .App {
   text-align: center;
 }
@@ -64,7 +66,6 @@ button:hover {
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -85,3 +86,4 @@ button:hover {
   to {
     transform: rotate(360deg);
   }
+}
