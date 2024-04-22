@@ -52,7 +52,6 @@ button:hover {
   width: 200px; /* Fixed width */
   height: 200px; /* Fixed height */
   object-fit: cover; /* Maintain aspect ratio */
-  /* ... any other styles you want to apply to the images */
+  border-top-left-radius: 0.5rem; /* Match the rounded-lg class if desired */
+  border-top-right-radius: 0.5rem; /* Match the rounded-lg class if desired */
 }
-
-
