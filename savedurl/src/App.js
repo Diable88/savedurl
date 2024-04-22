@@ -54,12 +54,13 @@ function App() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {links.map((link, index) => (
          <div key={index} className="shadow-lg rounded-lg link-card bg-[#4B1D3F] text-white">
-         <img 
-          src={link.imageUrl}
-alt="Link" 
-  style={{ width: '200px', height: '200px', objectFit: 'cover' }} // Inline styles for fixed size
-    className="rounded-t-lg"
+  <img 
+    src={link.imageUrl} 
+    alt="Link" 
+    className="link-image rounded-t-lg" // Apply the new CSS class
   />
+  {/* ... rest of your link card */}
+</div>
             <div className="p-4">
               <h2 className="text-lg font-bold">{link.title}</h2>
               <p className="text-gray-300 mt-2">{link.description}</p>
