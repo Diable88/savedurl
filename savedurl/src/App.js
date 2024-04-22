@@ -21,7 +21,7 @@ function App() {
     const newLink = {
       url: urlInput,
       // Placeholder image, replace or modify as needed
-      imageUrl: 'https://via.placeholder.com/500',
+      imageUrl: 'https://via.placeholder.com/200',
       title: 'Link Title', // Placeholder title, replace or modify as needed
       description: 'Link description goes here', // Placeholder description, replace or modify as needed
     };
