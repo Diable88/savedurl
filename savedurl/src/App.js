@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
-import '/src/App.css';
+import './App.css';
 
 function App() {
   const [urlInput, setUrlInput] = useState('');
@@ -30,6 +30,7 @@ function App() {
   }
 
   return (
+
     <div className="container mx-auto p-4 bg-gray-800">
       <h1 className="text-2xl font-bold text-center my-4 text-white">My Link Saver</h1>
       <form className="my-4" onSubmit={(e) => e.preventDefault()}>
